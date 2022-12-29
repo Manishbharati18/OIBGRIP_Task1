@@ -11,18 +11,18 @@ button {
     cursor: pointer;
     outline: none;
     font-size: 20px;
-    background-color: white;
-    border: 3px solid #333;
+    background-color: rgb(107, 135, 173);
+    border: 3px solid rgb(226, 231, 227);
 }
 
 button:hover {
     background-color: rgba(225, 225, 225, 70);
-    color: white;
+    color: rgb(10, 188, 16);
 }
 
 .output {
     grid-column: 1 / -1;
-    background-color: #333;
+    background-color: rgb(189, 152, 152);
     border-radius: 20px 20px 0 0;
     word-wrap: break-word;
     word-break: break-all;
@@ -31,7 +31,7 @@ button:hover {
 }
 
 .overoutput {
-    background-color: rgb(42, 101, 128);
+    background-color: rgb(122, 56, 98);
     padding-right: 10px;
     padding: 10px;
     text-align: end;
@@ -41,7 +41,7 @@ button:hover {
 }
 
 .tempoutput {
-    background-color: #333;
+    background-color: rgb(101, 57, 90);
     color: #fff;
     font-size: 20px;
     padding: 10px;
